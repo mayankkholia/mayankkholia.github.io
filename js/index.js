@@ -33,7 +33,7 @@ function fillTemplate() {
   document.getElementById(
     "age"
   ).innerHTML = `${birth.getFullYear()} / ${birth.getMonth() +
-    1} / ${birth.getDate()}`;
+    1} / ${birth.getDate()+1}`;
   $("#email")
     .find(".email")
     .text(profile.email);
