@@ -8,7 +8,7 @@
 let profile = {
   picture: "",
   name: "Mayank Kholia",
-  description: "Software Engineer & Fullstack Developer",
+  description: "Master Yoda",
   bio:
     "InProgress",
   email: "mayankkholia@outlook.com",
@@ -61,7 +61,7 @@ let profile = {
       to: "May 2019"
     }
   ],
-  quote: "I turn coffee into code"
+  quote: "Do; or do not; there is no try."
 };
 
 let page = {
