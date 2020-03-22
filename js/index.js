@@ -51,9 +51,9 @@ function fillTemplate() {
     .getElementById("linkedin")
     .setAttribute("href", profile.social.linkedin);
   document.getElementById("github").setAttribute("href", profile.social.github);
-  document
-    .getElementById("twitter")
-    .setAttribute("href", profile.social.twitter);
+  // document
+  //   .getElementById("twitter")
+  //   .setAttribute("href", profile.social.twitter);
   // document
   //   .getElementById("stackoverflow")
   //   .setAttribute("href", profile.social.stackoverflow);

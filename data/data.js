@@ -26,7 +26,7 @@ let profile = {
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/mayankkholia/",
-    twitter: "https://twitter.com/mayankkholia",
+    // twitter: "https://twitter.com/mayankkholia",
     github: "https://github.com/mayankkholia/"
   },
   experience: [
