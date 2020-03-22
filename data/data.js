@@ -54,12 +54,12 @@ let profile = {
   ],
   education: [
     {
-      school: "Universitat Autònoma de Barcelona",
-      degree: "Engineering",
+      school: "DIT University",
+      degree: "B.Tech",
       fieldOfStudy: "Computer Science",
-      location: "Barcelona, Spain",
-      from: "September 2016",
-      to: "Now"
+      location: "Dehradun, India",
+      from: "Aug 2015",
+      to: "May 2019"
     }
   ],
   quote: "I turn coffee into code"
