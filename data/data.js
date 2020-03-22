@@ -7,34 +7,28 @@
 // Change your profile data here
 let profile = {
   picture: "",
-  name: "Guim González",
+  name: "Mayank Kholia",
   description: "Software Engineer & Fullstack Developer",
   bio:
     "I'm a Software Engineer interested in Internet technologies, computer networks and security. From the FullStack development to the most innovative technologies such as Blockchain.<br><br>High level of web languages (JS, HTML and CSS), average level of C and C++. Great understanding of Internet protocols, P2P networks and cloud infrastructures. I work with JS frameworks, JQuery (old days) and React.js (now).",
-  email: "guim.gonzalez@gmail.com",
-  location: "Barcelona, Spain",
-  birth: "1997-07-26", // YYYY-MM-DD format
+  email: "mayankkholia@outlook.com",
+  location: "Pune,India",
+  birth: "1996-08-08", // YYYY-MM-DD format
   skills: [
-    "Blockchain",
-    "Bitcoin",
-    "C/C++",
+    "Python",
+    "Java",
+    "C/C++"
     "CSS",
-    "Ethereum",
     "HTML",
-    "Javascript",
-    "MongoDB",
-    "NodeJS",
-    "React",
-    "Solidity",
+    "Javascript",   
     "SQL",
-    "Web3"
+    "Perfmance Testing",
+    "Load Testing"
   ],
   social: {
-    linkedin: "https://www.linkedin.com/in/guim-gonzalez-846606134/",
-    twitter: "https://twitter.com/GuimGonzalez",
-    github: "https://github.com/GuimG/",
-    stackoverflow: "https://stackoverflow.com/users/8700961/guim-gonzalez",
-    dev: "https://dev.to/guimg"
+    linkedin: "https://www.linkedin.com/in/mayankkholia/",
+    twitter: "https://twitter.com/mayankkholia",
+    github: "https://github.com/mayankkholia/"
   },
   experience: [
     {
