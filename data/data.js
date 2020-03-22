@@ -17,8 +17,7 @@ let profile = {
   skills: [
     "Python",
     "Java",
-    "C/C++"
-    "CSS",
+    "C/C++",
     "HTML",
     "Javascript",   
     "SQL",
