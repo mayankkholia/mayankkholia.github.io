@@ -54,10 +54,10 @@ function fillTemplate() {
   document
     .getElementById("twitter")
     .setAttribute("href", profile.social.twitter);
-  document
-    .getElementById("stackoverflow")
-    .setAttribute("href", profile.social.stackoverflow);
-  document.getElementById("dev").setAttribute("href", profile.social.dev);
+  // document
+  //   .getElementById("stackoverflow")
+  //   .setAttribute("href", profile.social.stackoverflow);
+  // document.getElementById("dev").setAttribute("href", profile.social.dev);
   document.getElementById("bio-text").innerHTML = profile.bio;
   // Experience
   for (var i = 0; i < profile.experience.length; i++) {
