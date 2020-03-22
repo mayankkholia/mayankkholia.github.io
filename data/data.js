@@ -31,24 +31,24 @@ let profile = {
   },
   experience: [
     {
-      title: "FullStack Developer",
-      company: "Freelance",
-      url: "https://guimgonzalez.business/",
-      location: "Barcelona, Spain",
+      title: "Programmer Analyst Trainee",
+      company: "Cognizant",
+      url: "https://www.cognizant.com/",
+      location: "Pune, India",
       description:
-        "I do websistes for small businesses. I develop both frontend and backend. I also setup and mantain the VPS.",
-      from: "September 2017",
+        "Doing Performance Testing and Load Test for a Highly Reputed Bank",
+      from: "July 2019",
       to: "Now"
     },
     {
-      title: "IT Consultant",
-      company: "Innova-TSN",
-      url: "https://www.innova-tsn.com/",
-      location: "Barcelona, Spain",
+      title: "Intern",
+      company: "Cognizant",
+      url: "https://www.cognizant.com/",
+      location: "Pune, India",
       description:
-        "I developed web services, worked with SAS (ETL's), and email marketing with Oracle Eloqua.",
-      from: "July 2018",
-      to: "February 2019"
+        "Developed a for Python Light-Weight Database Management/Admin Tool for InfluxDB ",
+      from: "Jan 2019",
+      to: "May 2019"
     }
   ],
   education: [
