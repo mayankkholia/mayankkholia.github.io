@@ -46,7 +46,7 @@ let profile = {
       url: "https://www.cognizant.com/",
       location: "Pune, India",
       description:
-        "Developed a for Python Light-Weight Database Management/Admin Tool for InfluxDB ",
+        "Developed a Python Light-Weight Database Management/Admin Tool for InfluxDB ",
       from: "Jan 2019",
       to: "May 2019"
     }
