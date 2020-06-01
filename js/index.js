@@ -84,7 +84,7 @@ function fillTemplate() {
       .text(profile.certificates[i].from);
 
     $("#certificationContainer").append(certificateTemplate.html());
-    if (i < profile.certificate.length - 1)
+    if (i < profile.certificates.length - 1)
       $("#certificationContainer").append(document.createElement("hr"));
   }
   // Skills
