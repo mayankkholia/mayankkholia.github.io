@@ -87,6 +87,21 @@ function fillTemplate() {
     if (i < profile.certificates.length - 1)
       $("#certificationContainer").append(document.createElement("hr"));
   }
+  // Education
+  for (var i = 0; i < profile.education.length; i++) {
+    var educationTemplate = $("#credsTemplate");
+    educationTemplate.find(".mb-0").text(profile.education[i].school);
+    educationTemplate.find(".mb-3").text(profile.education[i].degree);
+    educationTemplate.find("p").text(profile.education[i].fieldOfStudy);
+    educationTemplate.find(".location").text(profile.education[i].location);
+    educationTemplate
+      .find(".date")
+      .text(profile.education[i].from + " - " + profile.education[i].to);
+
+    $("#educationContainer").append(educationTemplate.html());
+    if (i < profile.education.length - 1)
+      $("#educationContainer").append(document.createElement("hr"));
+  }
   // Skills
   for (var skill in profile.skills) {
     var skillItem = document.createElement("div");

@@ -21,6 +21,7 @@ let profile = {
     "HTML",
     "Javascript",   
     "SQL",
+    "Docker",
     "Perfmance Testing",
     "Load Testing"
   ],
