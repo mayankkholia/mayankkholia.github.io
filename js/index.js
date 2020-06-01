@@ -75,13 +75,13 @@ function fillTemplate() {
       $("#experienceContainer").append(document.createElement("hr"));
   }
   // Certification
-  for (var i = 0; i < profile.certificate.length; i++) {
+  for (var i = 0; i < profile.certificates.length; i++) {
     var certificateTemplate = $("#credsTemplate");
-    certificateTemplate.find(".mb-0").text(profile.certificate[i].title);
-    certificateTemplate.find(".mb-3").text(profile.certificate[i].provider);
+    certificateTemplate.find(".mb-0").text(profile.certificates[i].title);
+    certificateTemplate.find(".mb-3").text(profile.certificates[i].provider);
     certificateTemplate
       .find(".date")
-      .text(profile.certificate[i].from);
+      .text(profile.certificates[i].from);
 
     $("#certificationContainer").append(certificateTemplate.html());
     if (i < profile.certificate.length - 1)

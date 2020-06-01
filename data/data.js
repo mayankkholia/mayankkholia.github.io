@@ -61,7 +61,7 @@ let profile = {
       to: "May 2019"
     }
   ],
-  certifications: [
+  certificates: [
     {
       title: "Docker for the Absolute Beginner - Hands On - DevOps",
       provider: "Udemy",
