@@ -61,6 +61,18 @@ let profile = {
       to: "May 2019"
     }
   ],
+  certifications: [
+    {
+      title: "Docker for the Absolute Beginner - Hands On - DevOps",
+      provider: "Udemy",
+      from: "Dec 2019"
+    },
+    {
+      title: "Kubernetes for the Absolute Beginners - Hands-on",
+      provider: "Udemy",
+      from: "Feb 2020"
+    }
+  ],
   quote: "Do; or do not; there is no try."
 };
 

@@ -74,20 +74,18 @@ function fillTemplate() {
     if (i < profile.experience.length - 1)
       $("#experienceContainer").append(document.createElement("hr"));
   }
-  // Education
-  for (var i = 0; i < profile.education.length; i++) {
-    var educationTemplate = $("#credsTemplate");
-    educationTemplate.find(".mb-0").text(profile.education[i].school);
-    educationTemplate.find(".mb-3").text(profile.education[i].degree);
-    educationTemplate.find("p").text(profile.education[i].fieldOfStudy);
-    educationTemplate.find(".location").text(profile.education[i].location);
-    educationTemplate
+  // Certification
+  for (var i = 0; i < profile.certificate.length; i++) {
+    var certificateTemplate = $("#credsTemplate");
+    certificateTemplate.find(".mb-0").text(profile.certificate[i].title);
+    certificateTemplate.find(".mb-3").text(profile.certificate[i].provider);
+    certificateTemplate
       .find(".date")
-      .text(profile.education[i].from + " - " + profile.education[i].to);
+      .text(profile.certificate[i].from);
 
-    $("#educationContainer").append(educationTemplate.html());
-    if (i < profile.education.length - 1)
-      $("#educationContainer").append(document.createElement("hr"));
+    $("#certificationContainer").append(certificateTemplate.html());
+    if (i < profile.certificate.length - 1)
+      $("#certificationContainer").append(document.createElement("hr"));
   }
   // Skills
   for (var skill in profile.skills) {
