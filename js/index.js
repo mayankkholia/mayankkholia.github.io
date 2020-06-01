@@ -76,9 +76,11 @@ function fillTemplate() {
   }
   // Certification
   for (var i = 0; i < profile.certificates.length; i++) {
-    var certificateTemplate = $("#credsTemplate");
+    var certificateTemplate = $("#credsTemplate2");
     certificateTemplate.find(".mb-0").text(profile.certificates[i].title);
     certificateTemplate.find(".mb-3").text(profile.certificates[i].provider);
+    certificateTemplate.find("a").text(profile.certificates[i].id);
+    certificateTemplate.find("a").prop('href',profile.certificates[i].url);
     certificateTemplate
       .find(".date")
       .text(profile.certificates[i].from);

@@ -66,12 +66,16 @@ let profile = {
     {
       title: "Docker for the Absolute Beginner - Hands On - DevOps",
       provider: "Udemy",
-      from: "Dec 2019"
+      from: "Dec 2019",
+      url: "http://ude.my/UC-FKL8RTFI/",
+      id: "UC-FKL8RTFI"
     },
     {
       title: "Kubernetes for the Absolute Beginners - Hands-on",
       provider: "Udemy",
-      from: "Feb 2020"
+      from: "Feb 2020",
+      url: "http://ude.my/UC-d336471c-84e2-4266-bc41-34348437c6cf",
+      id: "UC-d336471c-84e2-4266-bc41-34348437c6cf"
     }
   ],
   quote: "Do; or do not; there is no try."
