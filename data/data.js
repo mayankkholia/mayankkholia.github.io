@@ -37,7 +37,7 @@ let profile = {
       url: "https://www.cognizant.com/",
       location: "Pune, India",
       description:
-        "Doing Performance Testing and Load Test for a Highly Reputed Bank",
+        "Doing Performance Testing and Load Testing for various Clients",
       from: "July 2019",
       to: "Now"
     },
